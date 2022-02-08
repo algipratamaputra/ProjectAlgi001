@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/itemPdf"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/company"/>
+
+        <TextView
+            android:id="@+id/address_company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/company"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:text="@string/company_address"/>
+
+        <TextView
+            android:id="@+id/berita_acara"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/address_company"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/berita_acara"/>
+
+        <TextView
+            android:id="@+id/delivery_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/berita_acara"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:textSize="14sp"
+            android:text="@string/delivery_order"/>
+
+        <TextView
+            android:id="@+id/title_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/delivery_order"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/day_pdf"/>
+
+        <TextView
+            android:id="@+id/textViewSpkCash_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16sp"
+            android:textColor="@android:color/black"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif"
+            app:layout_constraintStart_toEndOf="@id/title_date"
+            app:layout_constraintTop_toBottomOf="@id/delivery_order"/>
+
+
+        <TextView
+            android:id="@+id/description_pdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/descriptionPDf"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title_date" />
+
+        <TextView
+            android:id="@+id/title_konsumen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description_pdf"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:textSize="14sp"
+            android:text="@string/konsumen"/>
+
+        <TextView
+            android:id="@+id/name_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title_konsumen"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/name_pdf"/>
+
+        <TextView
+            android:id="@+id/get_name_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/chassisNumber_pdf"
+            app:layout_constraintTop_toBottomOf="@id/title_konsumen"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/name_pdf"/>
+
+        <TextView
+            android:id="@+id/address_customerPdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/name_pdf"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/address_CustomerPdf"/>
+
+        <TextView
+            android:id="@+id/get_address_customerPdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/chassisNumber_pdf"
+            app:layout_constraintTop_toBottomOf="@id/name_pdf"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/address_CustomerPdf"/>
+
+        <TextView
+            android:id="@+id/mobileNumber_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/address_customerPdf"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/moblieNumber_pdf"/>
+
+        <TextView
+            android:id="@+id/get_mobileNumber_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/chassisNumber_pdf"
+            app:layout_constraintTop_toBottomOf="@id/address_customerPdf"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/moblieNumber_pdf"/>
+
+        <TextView
+            android:id="@+id/email_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mobileNumber_pdf"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/title_email"/>
+
+        <TextView
+            android:id="@+id/get_email_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/chassisNumber_pdf"
+            app:layout_constraintTop_toBottomOf="@id/mobileNumber_pdf"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/title_email"/>
+
+        <TextView
+            android:id="@+id/title_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/email_pdf"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-black"
+            android:textSize="14sp"
+            android:text="@string/title_mobil"/>
+
+        <TextView
+            android:id="@+id/name_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title_car"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/nameCar_pdf"/>
+
+        <TextView
+            android:id="@+id/get_name_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/chassisNumber_pdf"
+            app:layout_constraintTop_toBottomOf="@id/title_car"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/nameCar_pdf"/>
+
+        <TextView
+            android:id="@+id/policeNumber_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/name_car"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/policeNumber_pdf"/>
+
+        <TextView
+            android:id="@+id/get_policeNumber_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/chassisNumber_pdf"
+            app:layout_constraintTop_toBottomOf="@id/name_car"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/policeNumber_pdf"/>
+
+        <TextView
+            android:id="@+id/machineNumber_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/policeNumber_pdf"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/machine_pdf"/>
+
+        <TextView
+            android:id="@+id/get_machineNumber_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/chassisNumber_pdf"
+            app:layout_constraintTop_toBottomOf="@id/policeNumber_pdf"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/machine_pdf"/>
+
+        <TextView
+            android:id="@+id/chassisNumber_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/machineNumber_pdf"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/chassis_pdf"/>
+
+        <TextView
+            android:id="@+id/get_chassisNumber_pdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@id/chassisNumber_pdf"
+            app:layout_constraintTop_toBottomOf="@id/machineNumber_pdf"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="12sp"
+            android:text="@string/chassis_pdf"/>
+
+        <TextView
+            android:id="@+id/description_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/descriptionCompany"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/chassisNumber_pdf" />
+
+        <TextView
+            android:id="@+id/description_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/description_1"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description_company" />
+
+        <TextView
+            android:id="@+id/description_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/description_2"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description_1" />
+
+        <TextView
+            android:id="@+id/description_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/description_3"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description_2" />
+
+        <TextView
+            android:id="@+id/ttd_customer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/title_ttdCustomer"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description_3" />
+
+        <TextView
+            android:id="@+id/ttd_sales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/title_ttdSales"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description_3" />
+
+        <TextView
+            android:id="@+id/ttd_supervisor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/title_ttdSupervisor"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description_3" />
+
+        <TextView
+            android:id="@+id/title_ttdCustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="48dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/ttd_name"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ttd_customer" />
+
+        <TextView
+            android:id="@+id/title_ttdSales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/ttd_name"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ttd_sales" />
+
+        <TextView
+            android:id="@+id/title_ttdSupervisor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/ttd_name"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ttd_supervisor" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

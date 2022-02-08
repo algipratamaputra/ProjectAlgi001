@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_bottom_navigation"
+    app:startDestination="@+id/navigation_addCars">
+
+    <fragment
+        android:id="@+id/navigation_addCars"
+        android:name="com.project.projectalgi001.admin.ui.addcars.ListCarsFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/list_cars_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_listSpkCash"
+        android:name="com.project.projectalgi001.admin.ui.listspk.ListSpkFragment"
+        android:label="@string/menu_spkListCash"
+        tools:layout="@layout/fragment_list_spk" />
+
+    <fragment
+        android:id="@+id/navigation_listSpkCredit"
+        android:name="com.project.projectalgi001.admin.ui.listspk.ListSpkCreditFragment"
+        android:label="@string/menu_spkListCredit"
+        tools:layout="@layout/fragment_list_spk_credit" />
+
+    <fragment
+        android:id="@+id/navigation_listDO"
+        android:name="com.project.projectalgi001.admin.ui.listdo.ListDOFragment"
+        android:label="@string/listDO"
+        tools:layout="@layout/list_d_o_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.project.projectalgi001.admin.ui.settingsAdmin.AdminSettingsFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_admin_settings" />
+
+</navigation>

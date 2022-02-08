@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="account_category"
+        app:title="Account"
+        app:icon="@drawable/ic_outline_person_24">
+
+        <Preference
+            app:key="edit_profile"
+            app:title="Edit Profile"
+            app:summary="change images and name">
+
+            <intent
+                android:action="com.project.projectalgi001.ACTION_VIEW"
+                android:targetClass="com.project.projectalgi001.admin.ui.settingsAdmin.AdminProfileActivity"
+                android:targetPackage="com.project.projectalgi001"/>
+        </Preference>
+
+        <Preference
+            app:key="edit_email"
+            app:title="Email"
+            app:summary="Change Email">
+
+            <intent
+                android:action="com.project.projectalgi001.ACTION_VIEW"
+                android:targetClass="com.project.projectalgi001.admin.ui.settingsAdmin.AdminChangeEmailActivity"
+                android:targetPackage="com.project.projectalgi001"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="security_category"
+        app:title="Security"
+        app:icon="@drawable/ic_security">
+
+        <Preference
+            app:key="change_password"
+            app:title="Password"
+            app:summary="Change Password">
+
+            <intent
+                android:action="com.project.projectalgi001.ACTION_VIEW"
+                android:targetClass="com.project.projectalgi001.admin.ui.settingsAdmin.AdminChangePasswordActivity"
+                android:targetPackage="com.project.projectalgi001"/>
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

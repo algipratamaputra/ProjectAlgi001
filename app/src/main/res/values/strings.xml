@@ -1,0 +1,210 @@
+<resources>
+    <string name="app_name">Armada Sukses Internasional</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_subtitle">User Email</string>
+    <string name="imagesProfile">Profile Picture</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_addCustomer">Add Customer</string>
+    <string name="menu_customerlist">Customer List</string>
+    <string name="menu_spkListCash">Cash SPK List</string>
+    <string name="menu_spkListCredit">Credit SPK List</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_logout">Logout</string>
+
+    <!-- Login Page -->
+    <string name="text_login">login</string>
+    <string name="email_cardview">Email</string>
+    <string name="password_cardview">Password</string>
+    <string name="forgot_cardview">Forgot your login details ?</string>
+    <string name="company_login">Armada Sukses Internasional</string>
+    <string name="login_button">Login</string>
+    <string name="create_account">Dont Have Account ? Create</string>
+    <string name="login_failed">Check your email and password</string>
+    <string name="verify_failed">Login Failed, Verify your account. Check your email</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="reset_password">Reset password</string>
+    <string name="close_dialogFP">Close</string>
+    <string name="email_sent">Check your email for a password update</string>
+    <string name="success_title">Success</string>
+    <string name="failed_title">Failed</string>
+    <string name="email_notRegist">The email is not registered</string>
+    <string name="oke">OKE</string>
+    <string name="retry">Retry</string>
+
+    <!-- Create Account Page -->
+    <string name="select_photo">Select Photo</string>
+    <string name="signup_button">Create Account</string>
+    <string name="enter_email">Please enter your email</string>
+    <string name="valid_email">Email not valid</string>
+    <string name="enter_password">Please enter your password</string>
+    <string name="valid_password">Your password should be more than 8 characters</string>
+    <string name="signUp_failed">An account is already exist</string>
+    <string name="no_connection_title">No internet connection</string>
+    <string name="no_connection">Connect to the internet and try again</string>
+    <string name="upload_images">Upload your image</string>
+    <string name="email_verification">Check your email and click link verification</string>
+    <string name="enter_name">Please enter your name</string>
+
+    <!-- Create Password -->
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="new_passwordAgain">New Password, Again</string>
+    <string name="passwordMiss">New Password Mismatching</string>
+    <string name="allPassword">Please enter all the fields</string>
+    <string name="verify_password">Your current password was incorrect</string>
+    <string name="success_changePassword">Change password Successfully, login with new password </string>
+    <string name="changePassword_button">Change Password</string>
+    <string name="name_cardview">Name</string>
+
+    <!-- Profile -->
+    <string name="profile">Edit Profile</string>
+    <string name="save">Save</string>
+    <string name="email_profile">Verification your email before login use the new email</string>
+    <string name="failure_update">Update Failure, Check your data</string>
+
+    <!-- Change Password -->
+    <string name="change_email">Change Email</string>
+    <string name="text_verification_password">Verify your password</string>
+    <string name="text_verification_passwordSub">Re-enter your password to continue</string>
+    <string name="text_verification_email">Change Email</string>
+    <string name="text_verification_emailSub">Remove your current email below and update with new email</string>
+
+    <!-- Home Fragment -->
+    <string name="contoh_nama_mobil">Suzuki Swift GX Automatic Tahun 2013</string>
+    <string name="contoh_harga_mobil">Rp. 125.000.000</string>
+
+    <!-- Navigation Admin -->
+    <string name="title_addCars">Add Cars</string>
+    <string name="listDO">DO list</string>
+    <string name="title_carList">Car List</string>
+
+    <string name="imagesReadyUploaded">Images Ready To Uploaded</string>
+
+    <!-- AddCars -->
+    <string name="cars_name">Car Name</string>
+    <string name="policeNumber">Police Number</string>
+    <string name="machineNumber">Machine Number</string>
+    <string name="chassisNumber">Chassis Number</string>
+    <string name="bpkb">BPKB Status</string>
+    <string name="stnk">STNK Status</string>
+    <string name="cashPrice">Cash Price</string>
+    <string name="creditPrice">Credit Price</string>
+    <string name="dpPrice">Minimum Down Payment</string>
+    <string name="uploadImage">Upload Images</string>
+    <string name="saveData">Save</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_search">Search</string>
+    <string name="search_hint">Search Car</string>
+    <string name="item_selected">%d Item Selected</string>
+    <string name="car_updated">Car Updated</string>
+    <string name="failed_add_cars">Failed to add cars</string>
+    <string name="success_add_car">Successfully added car data</string>
+
+    <!-- AddCustomer -->
+
+    <string name="customer_name">Customer Name</string>
+    <string name="customer_address">Customer Address</string>
+    <string name="customer_mobile_number">Customer Mobile Number</string>
+    <string name="customer_email">Customer Email</string>
+    <string name="car_brand">Car Brand</string>
+    <string name="description">Description</string>
+    <string name="save_customer">Save Customer</string>
+    <string name="updated_customer"> Updated the customer</string>
+    <string name="title_update">Update</string>
+    <string name="update_image">Update Images</string>
+
+    <!-- Cars Detail -->
+    <string name="title_policeNumber">Police Number</string>
+    <string name="title_machineNumber">Machine Number</string>
+    <string name="title_chassisNumber">Chassis Number</string>
+    <string name="title_bpkbStatus">BPKB Status</string>
+    <string name="title_stnkStatus">STNK Status</string>
+    <string name="title_cashPrice">Cash Price</string>
+    <string name="title_creditPrice">Credit Price</string>
+    <string name="title_downPayment">Down Payment</string>
+    <string name="title_spk">SPK</string>
+
+    <!-- SPK -->
+    <string name="field_empty">Field cannot be empty</string>
+    <string name="title_deleteImages">Delete Images</string>
+    <string name="title_cancel">Cancel</string>
+    <string name="permission">Permission denied</string>
+    <string name="sub_deleteImages">Do you want to delete the selected item ?</string>
+    <string name="image_deleted"> Images has been deleted</string>
+    <string name="title_buyer">Buyer</string>
+    <string name="title_address">Address</string>
+    <string name="title_mobileNumber">Mobile number</string>
+    <string name="title_email">Email</string>
+    <string name="title_car">Car</string>
+    <string name="title_carName">Car Name</string>
+    <string name="title_price">Price</string>
+    <string name="title_failed_spk">Failed to create SPK</string>
+    <string name="upload_proof_spk">upload source of SPK</string>
+    <string name="update_proof_spk">update source of SPK</string>
+    <string name="choose_finance">Choose finance</string>
+    <string name="choose_customer">Choose customer</string>
+    <string name="title_payment">Payment</string>
+    <string name="title_cash">Cash</string>
+    <string name="title_credit">Credit</string>
+    <string name="title_discount">Discount</string>
+    <string name="title_netOfDiscount">Net Of Discount</string>
+    <string name="title_prepayment">Prepayment</string>
+    <string name="title_deliveryPlant">Delivery Plant</string>
+    <string name="title_remainingPayment">Remaining Payment</string>
+    <string name="title_remainingDownPayment">Remaining DownPayment</string>
+    <string name="title_tenor">Tenor</string>
+    <string name="title_monthlyInstallment">Monthly Installment</string>
+    <string name="title_more">More</string>
+    <string name="title_additionalNotes">Additional Notes</string>
+    <string name="title_buttonCreateSpk">Create SPK</string>
+    <string name="spk_created">SPK created</string>
+    <string name="spk_updated">SPK updated</string>
+
+    <string name="custom_progress">Please Wait…</string>
+    <string name="copyright">Copyright © 2020\nAlgi Pratama Putra</string>
+    <string name="icon_app">Application Icon</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="company">CV. ARMADA SUKSES INTERNASIONAL</string>
+    <string name="company_address">Ruko Mega Legenda 2 Blok D3 Nomor 23, Batam Kota</string>
+    <string name="berita_acara">BERITA ACARA</string>
+    <string name="delivery_order">SERAH TERIMA KENDARAAN</string>
+    <string name="konsumen">KONSUMEN</string>
+    <string name="name_pdf">Nama</string>
+    <string name="moblieNumber_pdf">Nomor Hp</string>
+    <string name="address_CustomerPdf">Alamat</string>
+    <string name="descriptionPDf">Saya yang bertanda tangan dibawah ini, telah menerima 1 Unit Kendaraan Mobil sebagai berikut :</string>
+    <string name="day_pdf">Tanggal :</string>
+    <string name="sales">SALES</string>
+    <string name="descriptionCompany">Keterangan :</string>
+    <string name="description_1">- Kendaraan yang diterima telah sesuai (Dalam Kondisi Baik dan Sesuai)</string>
+    <string name="description_2"><![CDATA[- Bahan Bakar dianjurkan Pertalite / Octan >90]]></string>
+    <string name="description_3">- Garansi Mesin 1 Bulan terhitung mulai dari tanggal serah terima</string>
+    <string name="title_mobil">KENDARAAN</string>
+    <string name="nameCar_pdf">Merk / Type</string>
+    <string name="policeNumber_pdf">Nomor Polisi</string>
+    <string name="machine_pdf">Nomor Mesin</string>
+    <string name="chassis_pdf">Nomor Rangka</string>
+    <string name="title_ttdCustomer">Penerima</string>
+    <string name="title_ttdSales">Sales</string>
+    <string name="title_ttdSupervisor">Supervisor</string>
+    <string name="ttd_name">TTD</string>
+    <string name="spk_process">SPK PROCESS</string>
+    <string name="create_do">Create DO</string>
+    <string name="cancel_spk">Cancel SPK</string>
+    <string name="title_activity_admin_profile">AdminProfileActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

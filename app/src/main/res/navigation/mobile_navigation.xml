@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.project.projectalgi001.user.ui.home.HomeFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_addCustomer"
+        android:name="com.project.projectalgi001.user.ui.addCustomer.AddCustomerFragment"
+        android:label="@string/menu_addCustomer"
+        tools:layout="@layout/fragment_add_customer" />
+
+    <fragment
+        android:id="@+id/nav_customerList"
+        android:name="com.project.projectalgi001.user.ui.customerList.CustomerListFragment"
+        android:label="@string/menu_customerlist"
+        tools:layout="@layout/fragment_customer_list" />
+
+    <fragment
+        android:id="@+id/nav_SpkList"
+        android:name="com.project.projectalgi001.user.ui.spk.SpkListFragment"
+        android:label="@string/menu_spkListCash"
+        tools:layout="@layout/fragment_spk_list" />
+
+    <fragment
+        android:id="@+id/nav_SpkListCredit"
+        android:name="com.project.projectalgi001.user.ui.spk.SpkListCreditFragment"
+        android:label="@string/menu_spkListCredit"
+        tools:layout="@layout/fragment_spk_list_credit" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.project.projectalgi001.user.ui.setting.SettingFragment"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_setting" />
+
+</navigation>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/add_data_cars.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/add_photo.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/edit_text_spk_selector.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/ic_add.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/ic_baseline_list_24.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/ic_baseline_person_add_24.xml" value="0.19722222222222222" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2518518518518518" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/ic_check.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2518518518518518" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/ic_logout.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/ic_menu_camera.xml" value="0.22777777777777777" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2518518518518518" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/ic_outline_person_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/ic_security.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/item_background.xml" value="0.2518518518518518" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rb_cash_checked.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rb_cash_credit_background.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rb_cash_credit_text_icon_selector.xml" value="0.22314814814814815" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rb_cash_selector.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rb_cash_text_icon_selector.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rb_cash_unchecked.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rb_credit_checked.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rb_credit_selector.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rb_credit_text_icon.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rb_credit_unchecked.xml" value="0.16018518518518518" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rectangle_additional_notes.xml" value="0.15462962962962962" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rounded_add_cars.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rounded_button_change_pass.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rounded_button_login_sign.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rounded_cardview_detail.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rounded_cardview_login_sign.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rounded_select_photo.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rounded_text_change_pass.xml" value="0.21851851851851853" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rounded_text_change_pass_night.xml" value="0.21944444444444444" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/rounded_text_login_sign.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/search_bg.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/drawable/selected_item_background.xml" value="0.2518518518518518" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/font/playfair_display.xml" value="0.10677083333333333" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout-v23/activity_add_cars.xml" value="0.264" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout-v23/activity_change_email.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout-v23/activity_change_password.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout-v23/activity_create_account.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout-v23/activity_email_password.xml" value="0.34953703703703703" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout-v23/activity_profil.xml" value="0.264" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout-v23/fragment_add_customer.xml" value="0.24615384615384617" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_add_cars.xml" value="0.264" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_admin_change_email.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_admin_change_password.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_admin_profile.xml" value="0.2" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_cars_details.xml" value="0.24048442906574394" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_change_email.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_change_password.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_create_account.xml" value="0.2" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_detail_cars.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_detail_cars_admin.xml" value="0.176" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_detail_customer.xml" value="0.264" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_detail_do_cash_admin.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_detail_spk_cash.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_detail_spk_cash_admin.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_detail_spk_credit.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_detail_spk_credit_admin.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_do_cash_admin.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_email_password.xml" value="0.2" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_loading_start_account.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_main.xml" value="0.10461956521739131" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_main_admin.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_profil.xml" value="0.4" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_spk.xml" value="0.35398230088495575" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/activity_update_car.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/add_cars_fragment.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/app_bar_main.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/app_bar_main_admin.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/content_admin_profile.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/content_main.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/content_main_admin.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/dialog_forgot_password.xml" value="0.264" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/finance_item.xml" value="0.18611111111111112" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_add_customer.xml" value="0.4" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_admin_settings.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_carousel.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_cars_detail.xml" value="0.264" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_customer_list.xml" value="0.2361111111111111" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_first.xml" value="0.4" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_gallery.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_list_spk.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_list_spk_credit.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_setting.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_slideshow.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_spk_list.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/fragment_spk_list_credit.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/item_car.xml" value="0.4" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/item_carousel.xml" value="0.264" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/item_carousel_banner.xml" value="0.264" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/item_customer_list.xml" value="0.24601769911504426" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/item_grid_cars_uploaded.xml" value="0.264" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/item_grid_resource_spk.xml" value="0.2361111111111111" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/item_image.xml" value="0.2359375" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/item_list_name.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/item_pdf_layout.xml" value="0.36730769230769234" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/item_slide.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/item_spk_list_cash.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/item_spk_list_credit.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/list_cars_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/list_d_o_fragment.xml" value="0.10461956521739131" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/nav_header_main.xml" value="0.10461956521739131" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/progress_custom.xml" value="0.536" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/layout/progress_profile.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/menu/activity_bottom_navigation.xml" value="0.5072815533980582" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/menu/activity_main_drawer.xml" value="0.536" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/menu/delete_menu.xml" value="0.264" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/menu/logout_admin.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/menu/menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/menu/search_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/xml/preference_admin.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AndroidStudioProjects/ProjectAlgi001/app/src/main/res/xml/preferences.xml" value="0.2" />
+        <entry key="..\:/Users/algip/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.25" />
+        <entry key="..\:/Users/algip/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
